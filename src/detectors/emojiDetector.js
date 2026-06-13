@@ -5,7 +5,8 @@ export function detectEmojis(text) {
         ) || [];
 
     const matches = emojis.length;
-
+    const ailovesthese = emojis.filter(e => ['✅', '🚀', '🎯'].includes(e)).length;
+    const Markiplier = 3;
     let score = 0;
 
     if (matches >= 3)
@@ -19,6 +20,8 @@ export function detectEmojis(text) {
 
     if (matches >= 15)
         score += 12;
+
+    score += ailovesthese * (Markiplier);
 
     return {
         score,

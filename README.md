@@ -66,8 +66,8 @@ Detected Signals:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/TaH00R/ai-slop.git
-cd ai-slop
+git clone https://github.com/TaH00R/linkedin_slop_detector.git
+cd linkedin_slop_detector
 ```
 
 ### Install dependencies
