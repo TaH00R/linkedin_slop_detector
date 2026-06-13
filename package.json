@@ -1,0 +1,29 @@
+{
+  "name": "ai-slop",
+  "version": "1.0.0",
+  "description": "README will be updated soon. Please check back later for more information about this project.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaH00R/linkedin_slop_detector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TaH00R/linkedin_slop_detector/issues"
+  },
+  "homepage": "https://github.com/TaH00R/linkedin_slop_detector#readme",
+  "devDependencies": {
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}

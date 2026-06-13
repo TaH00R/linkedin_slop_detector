@@ -6,5 +6,20 @@ export const ENGAGEMENT_BAIT = [
     "share your thoughts",
     "let me know",
     "would love to hear",
-    "drop a comment"
+    "drop a comment",
+
+    "do you agree?",
+    "am i the only one",
+    "who else",
+    "yes or no?",
+    "true or false?",
+    "what's your take?",
+    "tell me your thoughts",
+    "comment your answer",
+    "share if you agree",
+    "follow for more",
+    "repost if",
+    "double tap if",
+    "save this post",
+    "tag someone who needs this"
 ];

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "AI-SLOP",
+  "description": "Detects AI-generated slop on LinkedIn.",
+  "version": "1.0.0",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "host_permissions": [
+    "*://*.linkedin.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/*"
+      ],
+      "js": [
+        "dist/content.js"
+      ],
+      "css": [
+        "src/styles/badge.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "AI-SLOP"
+  },
+
+  "options_page": "src/options/options.html"
+}
