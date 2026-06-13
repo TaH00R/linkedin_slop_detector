@@ -1,3 +1,5 @@
+import { ENGAGEMENT_BAIT } from "../data/engagementBait.js";
+
 export function detectEngagementBait(text) {
     const lowerText = text.toLowerCase();
 
