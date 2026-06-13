@@ -66,7 +66,7 @@ Detected Signals:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-slop.git
+git clone https://github.com/TaH00R/ai-slop.git
 cd ai-slop
 ```
 
